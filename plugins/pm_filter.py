@@ -776,7 +776,7 @@ async def advantage_spell_chok(msg):
         )
     ] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="Close", callback_data=f'spolling#{user}#close_spellcheck')])
-    await msg.reply("<b>ඔයා Type කරපු නමින් මගේ DataBase එකේ Film / TV Series නැහැ./n/nඔයා හොයන්නෙ පල්ලෙහා තියෙන Film හෝ Series වලින් එකක් නම් ඒක උඩ Click කරන්න. 😌👌</b>",
+    await msg.reply("<b>ඔයා Type කරපු නමින් මගේ DataBase එකේ Film / TV Series නැහැ.\n\nඔයා හොයන්නෙ පල්ලෙහා තියෙන Film හෝ Series වලින් එකක් නම් ඒක උඩ Click කරන්න. 😌👌</b>",
                     reply_markup=InlineKeyboardMarkup(btn))
 
 
