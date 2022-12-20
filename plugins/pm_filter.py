@@ -708,7 +708,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"Here is what i found for your query {search}"
+        cap = f"<b>ඔයා Type කරපු නම : {search}\n\nඔයා හොයන ෆිල්ම් එක හෝ ටීවි සීරිස් එක Group එකේ නැද්ද ? 🤕\n\nඑහෙනම් අපේ @MovieClubFamily_Chat Group එකට ඇවිත් අපිව Mention කරලා ඒ ෆිල්ම් එක හෝ සීරිස් එක ඉල්ලගන්න. 🤗\n\nඋදා : Endgame 2019 </b>"
     if imdb and imdb.get('poster'):
         try:
             await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
