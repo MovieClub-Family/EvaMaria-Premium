@@ -764,7 +764,7 @@ async def advantage_spell_chok(msg):
     movielist += [(re.sub(r'(\-|\(|\)|_)', '', i, flags=re.IGNORECASE)).strip() for i in gs_parsed]
     movielist = list(dict.fromkeys(movielist))  # removing duplicates
     if not movielist:
-        k = await msg.reply("I couldn't find anything related to that. Check your spelling")
+        k = await msg.reply("ඔයා Type කරපු නම වැරදියි වගේ.. නිවැරදි නම Type කරලා බලන්න.")
         await asyncio.sleep(8)
         await k.delete()
         return
@@ -776,7 +776,7 @@ async def advantage_spell_chok(msg):
         )
     ] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="Close", callback_data=f'spolling#{user}#close_spellcheck')])
-    await msg.reply("I couldn't find anything related to that\nDid you mean any one of these?",
+    await msg.reply("<b>ඔයා Type කරපු නමින් මගේ DataBase එකේ Film / TV Series නැහැ./n/nඔයා හොයන්නෙ පල්ලෙහා තියෙන Film හෝ Series වලින් එකක් නම් ඒක උඩ Click කරන්න. 😌👌</b>",
                     reply_markup=InlineKeyboardMarkup(btn))
 
 
