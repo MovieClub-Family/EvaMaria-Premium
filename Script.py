@@ -11,11 +11,11 @@ class script(object):
 📢 Updates Channel : <a href=https://t.me/MovieClubUpdates><b></b>Click Here</a>\n
 🌟 Version : V 1.0\n</b></i>"""
     SOURCE_TXT = """<b>NOTE:</b>
-- MCF Filter X is a Closed source project. 
+- MCF Premium Bot is a Closed source project. 
 <b>DEVS:</b>
 - <a href=https://t.me/IamBlackEmpire>IamBlackEmpire</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
-- Filter is the feature were users can set automated replies for a particular keyword and MCF Filter X will respond whenever a keyword is found the message
+- Filter is the feature were users can set automated replies for a particular keyword and MCF Premium Bot will respond whenever a keyword is found the message
 <b>NOTE:</b>
 1. MCF Premium Bot should have admin privillage.
 2. only admins can add filters in a chat.
@@ -26,7 +26,7 @@ class script(object):
 • /del - <code>delete a specific filter in chat</code>
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
     BUTTON_TXT = """Help: <b>Buttons</b>
-- MCF Filter Pro Supports both url and alert inline buttons.
+- MCF Premium Bot Supports both url and alert inline buttons.
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
 2. MCF Premium Bot supports buttons with any telegram media type.
@@ -53,7 +53,7 @@ class script(object):
 • /connections - <code>list all your connections</code>"""
     EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
 <b>NOTE:</b>
-these are the extra features of MCF Filter X
+these are the extra features of MCF Premium Bot
 <b>Commands and Usage:</b>
 • /id - <code>get id of a specifed user.</code>
 • /info  - <code>get information about a user.</code>
